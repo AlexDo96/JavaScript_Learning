@@ -18,3 +18,11 @@ user.comment = 'BBBBB'
 console.log(author.getName());
 console.log(user.getName());
 
+// Object prototype: add more property to Object
+User.prototype.className = 'F8';
+User.prototype.getClassName = function () {
+    return this.className;
+};
+
+console.log(author.getClassName());
+

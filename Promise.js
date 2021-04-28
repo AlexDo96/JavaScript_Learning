@@ -1,8 +1,10 @@
 // -Sync: Đồng bộ
 // -Async: Bất đồng bộ
 
-// Callback hell
-// Pyramid of doom
+/* Promise pains:
+ 1. Callback hell
+ 2. Pyramid of doom
+*/
 setTimeout(function () {
     console.log(1);   // Task 1
     setTimeout(function () {
